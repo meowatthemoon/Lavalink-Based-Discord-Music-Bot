@@ -24,3 +24,7 @@ https://github.com/lavalink-devs/Lavalink/releases
 # Start bot:
 - python3 main.py
 - Tested with python 3.11
+- Run: !setup on your server
+
+# Future Proof
+- lavalink's youtube plugin keeps updating. If the bot does not play music update the plugin's version in application.yml.
