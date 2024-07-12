@@ -12,7 +12,11 @@ https://github.com/lavalink-devs/Lavalink/releases
 
 # Application.yml
 - Create application.yml file in the same folder as Lavalink's jar file.
-- Modify IP, Password and Port in application.yml and config.py
+- Modify IP, Password and Port in application.yml
+
+# Config.py
+- Modify config.py to have the same IP, Password and Port as application.yml
+- Grab your discord bot token and set it in config.py
 
 # Launch lavalink:
 - java -jar Lavalink.jar
