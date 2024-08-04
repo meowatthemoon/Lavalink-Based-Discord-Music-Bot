@@ -13,8 +13,9 @@ plugins:
     # Clients are queried in the order they are given (so the first client is queried first and so on...)
     clients:
       - MUSIC
-      - ANDROID
+      - ANDROID_TESTSUITE
       - WEB
+      - TVHTML5EMBEDDED
 
     # You can configure individual clients with the following.
     # Any options or clients left unspecified will use their default values
@@ -37,7 +38,7 @@ plugins:
 lavalink:
   plugins:
     # Replace VERSION with the current version as shown by the Releases tab or a long commit hash for snapshots.
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.4.0"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.5.1"
       snapshot: false # Set to true if you want to use a snapshot version.
   server:
     password: "youshallnotpass"
